@@ -20,7 +20,8 @@ Front-end / full-stack web developer based in South Africa. I design and build f
 ## 🚀 Projects
 
 ### Kindera
-**Live:** https://kindera.co.za  
+**Live:** https://kindera.co.za
+
 A production website built and shipped for the web — responsive layout, clear information architecture and fast first paint.
 
 Tech (author-provided): React · TypeScript · Tailwind CSS
@@ -64,8 +65,6 @@ Performance & accessibility (high-level)
 
 ---
 
-## 🛠️ What I bring
-
 | Area | Detail |
 | --- | --- |
 | Front-end | React, TypeScript, component architecture, design systems |
@@ -78,27 +77,22 @@ Performance & accessibility (high-level)
 
 ## 📷 Screenshots
 
-<!-- The screenshot files you uploaded are in the repository root. Using the actual filenames so they render in the README. -->
+The screenshot files referenced below should live in `assets/screenshots/`. For best results, convert to WebP and optimize sizes (≈1200px width, ≤250 KB for stills).
 
-<figure>
-  <img src="assetsscreenshotsveld-hero.webp.jpg" alt="Veld Mining homepage hero: yellow mining truck in a rocky quarry with large overlaid headline 'QUALITY MINING MACHINERY' and red accent CTAs." style="max-width:100%;">
-  <figcaption><em>Veld Mining — hero showcasing the canvas-driven, full-bleed sequence and primary CTAs.</em></figcaption>
-</figure>
+![Veld hero](assets/screenshots/veld-hero.webp "Veld Mining — hero showcasing the canvas-driven, full-bleed sequence and primary CTAs")
 
-<figure>
-  <img src="assetsscreenshotskindera-hero.webp.jpg" alt="Kindera homepage hero: centered headline 'Find the Perfect Preschool Near You', short description and a prominent rounded search bar with blue search button." style="max-width:100%;">
-  <figcaption><em>Kindera — focused hero with clear CTA: search for preschools by city or suburb.</em></figcaption>
-</figure>
+![Kindera hero](assets/screenshots/kindera-hero.webp "Kindera — focused hero with clear CTA: search for preschools by city or suburb")
 
 Notes about screenshots
-- These reference the files you uploaded to the repository root. For a cleaner repo, move them to assets/screenshots/ and rename to `kindera-hero.webp` and `veld-hero.webp`.
-- For best results convert to WebP (still) and MP4 (short motion preview) and keep sizes optimized (~1200px width, ≤250 KB for stills, ≤2 MB for short MP4 previews).
+- These reference files in `assets/screenshots/`. If the images are currently in the repository root, move them to `assets/screenshots/` and rename to `veld-hero.webp` and `kindera-hero.webp`.
+- For motion previews, include short MP4 clips (≤2 MB) named `veld-preview.mp4` or similar.
 
 ---
 
 ## 📬 Contact & availability
 
-Open to junior/mid front-end roles, contract work and freelance projects (local or remote).  
+Open to junior/mid front-end roles, contract work and freelance projects (local or remote).
+
 Email: lbmohuba@gmail.com · LinkedIn: https://www.linkedin.com/in/lesego-mohuba-bba326134/
 
 If you're hiring or want a quick chat about a project, please get in touch — happy to share case studies, code samples, and deploy metrics.
@@ -106,6 +100,6 @@ If you're hiring or want a quick chat about a project, please get in touch — h
 ---
 
 ## Next steps (what I will do / what I need from you)
-- I will open a pull request from `update/readme-improvements` → `main` with the README changes and embedded screenshots.
-- Optional: move and optimize images into `assets/screenshots/` and add a short MP4 preview for Veld. If you want me to do those moves I can prepare the file operations, but binary conversion is easiest done locally or by uploading optimized files to the branch.
-
+- I will open (or have opened) a pull request with these README improvements from the `update/readme-improvements` branch.
+- Optional: I can move and optimize screenshots into `assets/screenshots/` if you confirm the exact filenames are present in the branch. If the optimized images don't exist yet, please upload them or tell me the filenames to rename.
+- If you want, I can convert the inline HTML figures to Markdown image syntax (already done here) and tidy any remaining formatting.
