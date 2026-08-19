@@ -29,6 +29,11 @@ Highlights / Notes
 - Production site with focus on performance and accessibility.
 - Recommended additions for the README: one hero screenshot and a 1–2 sentence case study (goal, role, outcome).
 
+Performance & accessibility (high-level)
+- Fast, whitespace-first layout — keep images optimized and use lazy-loading for below-the-fold images.
+- Ensure the search input has a visible label or aria-label for screen readers and the primary CTA uses an accessible name.
+- Consider adding an accessible skip link and verifying color contrast for any UI text over images.
+
 ---
 
 ### Veld Mining Machines and Supplies — concept build
@@ -47,6 +52,11 @@ Tech: TanStack Start · React · TypeScript · Vite · Tailwind CSS · Canvas AP
 
 > Veld Mining Machines and Supplies is fictional — a portfolio concept (not trading).
 
+Performance & accessibility (high-level)
+- Large hero images and canvas sequences can impact Largest Contentful Paint; use optimized images and consider using a low-quality image placeholder (LQIP) for the hero.
+- Provide clear reduced-motion fallbacks and ensure the canvas animation is controllable via prefers-reduced-motion.
+- Add semantic headings and ARIA roles for the nav and interactive controls to improve screen-reader navigation.
+
 ---
 
 ## 🛠️ What I bring
@@ -63,19 +73,21 @@ Tech: TanStack Start · React · TypeScript · Vite · Tailwind CSS · Canvas AP
 
 ## 📷 Screenshots
 
-Below are placeholders for project screenshots. Add the actual images to the repository at the indicated paths if you want them embedded in the README.
+<!-- Using the files you uploaded to the repository (raw URLs point to main branch uploaded files). -->
 
-- Kindera (hero):  assets/screenshots/kindera-hero.png
-  
-  ![Kindera hero screenshot](assets/screenshots/kindera-hero.png)
+<figure>
+  <img src="https://raw.githubusercontent.com/Lesego454/Lesego454/main/assetsscreenshotsveld-hero.webp.jpg" alt="Veld Mining homepage hero: yellow mining truck in a rocky quarry with large overlaid headline 'QUALITY MINING MACHINERY' and red accent CTAs." style="max-width:100%;">
+  <figcaption><em>Veld Mining — hero showcasing the canvas-driven, full-bleed sequence and primary CTAs.</em></figcaption>
+</figure>
 
-- Veld (hero / canvas sequence): assets/screenshots/veld-hero.png
-  
-  ![Veld hero screenshot](assets/screenshots/veld-hero.png)
+<figure>
+  <img src="https://raw.githubusercontent.com/Lesego454/Lesego454/main/assetsscreenshotskindera-hero.webp.jpg" alt="Kindera homepage hero: centered headline 'Find the Perfect Preschool Near You', short description and a prominent rounded search bar with blue search button." style="max-width:100%;">
+  <figcaption><em>Kindera — focused hero with clear CTA: search for preschools by city or suburb.</em></figcaption>
+</figure>
 
 Notes about screenshots
-- Use optimized PNG/WebP images (max ~250 KB) and include descriptive alt text.
-- If you prefer GIF/MP4 for short motion previews, place them under assets/screenshots/ and reference with HTML <video> or GIF markdown.
+- The images above reference the files you uploaded to the repository root. If you prefer them stored under assets/screenshots/, rename or move the files to that path (assets/screenshots/kindera-hero.webp, assets/screenshots/veld-hero.webp) and update the paths here accordingly.
+- For best results convert to WebP (still) and MP4 (short motion preview) and keep sizes optimized (~1200px width, ≤250 KB for stills, ≤2 MB for short MP4 previews).
 
 ---
 
@@ -88,7 +100,8 @@ If you're hiring or want a quick chat about a project, please get in touch — h
 
 ---
 
-## Next steps I can take for you
-- If you want, I can add the screenshots for you — please upload them here or give me links.  
-- I can also run quick Lighthouse checks (desktop + mobile) and include the scores and short remediation notes in the README — tell me if you want that.  
-- When you're ready I will open a PR from update/readme-improvements into main for review.
+## Next steps I completed and what's left
+- Completed: tightened README copy, added project notes, embedded the images you uploaded (via raw URLs), added high-level performance & accessibility notes.
+- Remaining (optional): move images into assets/screenshots/, add a short MP4 preview for Veld, run Lighthouse and paste scores here so I can include exact metrics in the README.
+
+When you're ready I can prepare the PR title+body and open the PR for review (or give the gh CLI command for you to open it).
